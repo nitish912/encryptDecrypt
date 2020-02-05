@@ -12,6 +12,8 @@
 		ED2FEBD023E99D580078E2E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2FEBCE23E99D580078E2E8 /* Main.storyboard */; };
 		ED2FEBD223E99D590078E2E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2FEBD123E99D590078E2E8 /* Assets.xcassets */; };
 		ED2FEBD523E99D590078E2E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2FEBD323E99D590078E2E8 /* LaunchScreen.storyboard */; };
+		ED2FEBDD23E99E280078E2E8 /* encryptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEBDC23E99E270078E2E8 /* encryptViewController.swift */; };
+		ED2FEBE123E99F430078E2E8 /* decryptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEBE023E99F430078E2E8 /* decryptViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ED2FEBD123E99D590078E2E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED2FEBD423E99D590078E2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED2FEBD623E99D590078E2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2FEBDC23E99E270078E2E8 /* encryptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = encryptViewController.swift; sourceTree = "<group>"; };
+		ED2FEBE023E99F430078E2E8 /* decryptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decryptViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				ED2FEBCA23E99D580078E2E8 /* AppDelegate.swift */,
 				ED2FEBCC23E99D580078E2E8 /* ViewController.swift */,
+				ED2FEBDC23E99E270078E2E8 /* encryptViewController.swift */,
 				ED2FEBCE23E99D580078E2E8 /* Main.storyboard */,
 				ED2FEBD123E99D590078E2E8 /* Assets.xcassets */,
 				ED2FEBD323E99D590078E2E8 /* LaunchScreen.storyboard */,
 				ED2FEBD623E99D590078E2E8 /* Info.plist */,
+				ED2FEBE023E99F430078E2E8 /* decryptViewController.swift */,
 			);
 			path = encryptDecrypt;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2FEBE123E99F430078E2E8 /* decryptViewController.swift in Sources */,
 				ED2FEBCD23E99D580078E2E8 /* ViewController.swift in Sources */,
 				ED2FEBCB23E99D580078E2E8 /* AppDelegate.swift in Sources */,
+				ED2FEBDD23E99E280078E2E8 /* encryptViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
